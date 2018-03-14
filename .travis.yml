@@ -11,6 +11,7 @@ rvm:
 # when starting out as this usually runs `rake test`.
 
 script:
+  - bin/rake db:create
   - bin/rake db:migrate
   - bin/rake
 
