@@ -11,9 +11,8 @@ rvm:
 # when starting out as this usually runs `rake test`.
 
 script:
-  - bin/rake db:create
   - bin/rake db:migrate
-  - rspec spec
+  - bin/rake
 
 # 5. OPTIONAL Add a Build Status Badge to your README, follow instructions here:
 #    http://docs.travis-ci.com/user/status-images/
